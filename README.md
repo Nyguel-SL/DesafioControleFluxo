@@ -1,18 +1,36 @@
-## Getting Started
+Desafio Controle de Fluxo - Meu Primeiro Projeto em Java!
+Olá! Este é um dos meus primeiros projetos em Java, feito para o desafio "Controle de Fluxo" da trilha de Java Básico da DIO.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Aqui eu estou colocando em prática o que aprendi sobre:
 
-## Folder Structure
+Tratamento de Exceções: Como lidar com erros de uma forma organizada.
 
-The workspace contains two folders by default, where:
+Laços de Repetição (for): Como repetir uma ação um número específico de vezes.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Métodos e Classes: Como organizar meu código em partes menores e mais fáceis de entender.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Ainda estou aprendendo, então se tiver alguma sugestão de melhoria, ficarei feliz em ouvir!
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+🎯 O que o projeto faz?
+É um programinha bem simples que pede dois números.
 
-## Dependency Management
+Se o primeiro número for maior que o segundo, ele me avisa que há um erro.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Se o segundo número for maior que o primeiro, ele vai contar a diferença entre eles e imprimir uma mensagem para cada contagem.
+
+Exemplo:
+Se eu digitar 10 e depois 15, o programa vai contar 5 vezes e imprimir a mensagem "Imprimindo o número..." 5 vezes.
+
+📁 Como rodar este código?
+Eu usei o Visual Studio Code para desenvolver, mas você pode usar qualquer IDE (como o Eclipse) ou até mesmo o terminal.
+
+Compile os arquivos .java usando o comando:
+
+Bash
+
+javac Contador.java ParametrosInvalidosException.java
+Execute o programa com o comando:
+
+Bash
+
+java Contador
